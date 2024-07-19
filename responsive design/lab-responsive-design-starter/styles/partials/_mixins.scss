@@ -1,0 +1,6 @@
+//Tablet Mixin for the desktop screen size
+@mixin tablet {
+    @media (min-width:768px) {
+        @content;
+    }
+};
